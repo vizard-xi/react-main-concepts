@@ -4,11 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import IntroductingJSX from './components/Introducing JSX';
 import ComponentsAndProps from './components/Components and Props';
+import StateAndLifecycle from './components/State and Lifecycle';
 
 ReactDOM.render(
   <React.StrictMode>
     <IntroductingJSX/>
     <ComponentsAndProps/>
+    <StateAndLifecycle/>
   </React.StrictMode>,
   document.getElementById('root')
 );

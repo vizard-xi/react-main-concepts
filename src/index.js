@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import IntroductingJSX from './components/Introducing JSX';
+import ComponentsAndProps from './components/Components and Props';
 
 ReactDOM.render(
   <React.StrictMode>
     <IntroductingJSX/>
+    <ComponentsAndProps/>
   </React.StrictMode>,
   document.getElementById('root')
 );

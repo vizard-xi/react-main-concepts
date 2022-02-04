@@ -6,6 +6,7 @@ import IntroductingJSX from './components/Introducing JSX';
 import ComponentsAndProps from './components/Components and Props';
 import StateAndLifecycle from './components/State and Lifecycle';
 import HandlingEvents from './components/Handling Events';
+import ConditionalRendering from './components/Conditional Rendering';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
     <ComponentsAndProps/>
     <StateAndLifecycle/>
     <HandlingEvents/>
+    <ConditionalRendering/>
   </React.StrictMode>,
   document.getElementById('root')
 );

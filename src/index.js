@@ -5,12 +5,14 @@ import reportWebVitals from './reportWebVitals';
 import IntroductingJSX from './components/Introducing JSX';
 import ComponentsAndProps from './components/Components and Props';
 import StateAndLifecycle from './components/State and Lifecycle';
+import HandlingEvents from './components/Handling Events';
 
 ReactDOM.render(
   <React.StrictMode>
     <IntroductingJSX/>
     <ComponentsAndProps/>
     <StateAndLifecycle/>
+    <HandlingEvents/>
   </React.StrictMode>,
   document.getElementById('root')
 );

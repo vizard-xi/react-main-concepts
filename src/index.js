@@ -7,6 +7,7 @@ import ComponentsAndProps from './components/Components and Props';
 import StateAndLifecycle from './components/State and Lifecycle';
 import HandlingEvents from './components/Handling Events';
 import ConditionalRendering from './components/Conditional Rendering';
+import Forms from './components/Forms';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <StateAndLifecycle/>
     <HandlingEvents/>
     <ConditionalRendering/>
+    <Forms/>
   </React.StrictMode>,
   document.getElementById('root')
 );
